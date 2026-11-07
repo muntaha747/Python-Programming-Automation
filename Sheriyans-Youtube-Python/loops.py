@@ -133,4 +133,22 @@
 #     b += a[i]
 # print(b)    
 
- 
+## Question 12?
+str1 = "P@#yn26at^&i5ve"
+char = 0
+Digits = 0
+Symbols = 0
+
+for i in str1:
+    if i.isalpha(): #this is the function which will check if the character is alphabet or not
+        char += 1
+        print(f"{i} a character is found")
+    elif i.isdigit(): #this is the function which will check if the character is digit or not
+        Digits += 1
+        print(f"{i} a digit is found")  
+    else:   
+        Symbols += 1 # There is not fucntion for symbols so we will just use else statement to count the symbols
+        print(f"{i} a symbol is found")
+print(f"The total number of characters is {char}")
+print(f"The total number of Digits is {Digits}")
+print(f"The total number of Symbols is {Symbols}")
