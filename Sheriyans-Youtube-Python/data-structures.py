@@ -22,4 +22,12 @@
     
 # # What is the methods and what are the lists methods?
 # How to the check the methods of the list
-print(dir(list))
+# print(dir(list))
+
+# help(list) # by running this you can see the functions and modules to see with the list
+ 
+a = ["apples", "oranges", "mango", "banana"]
+a.append(47)
+a.append("orange2")
+a.append(print())
+print(a)
