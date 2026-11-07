@@ -27,7 +27,10 @@
 # help(list) # by running this you can see the functions and modules to see with the list
  
 a = ["apples", "oranges", "mango", "banana"]
-a.append(47)
+a.append(47)        # Append also put it in the last of the indexth value.
 a.append("orange2")
 a.append(print())
+a.insert(1,2) # Insert will always always in the middle or in the order. 1 --> it is the first index and 2 is the value to be put in the list of the first indexth.
+a.extend([7,100,500]) 
+a.remove(47)
 print(a)
