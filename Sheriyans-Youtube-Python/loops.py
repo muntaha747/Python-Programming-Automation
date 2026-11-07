@@ -27,7 +27,7 @@
 # a = str("SHERIYANS")
 # for i in a:
 #     print(i)
-    
+    #
 # Continue and Break statement in loops
 
 # for i in range(1,21,1):
